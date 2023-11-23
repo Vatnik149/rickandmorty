@@ -1,0 +1,39 @@
+.profile{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .backBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .character{
+        margin-left: 35%;
+
+
+        .pic-block{
+            width: 300px;
+            height: 300px;
+            flex-shrink: 0;
+            border-radius: 150px; 
+            border: 5px solid var(--graybase-gray-6, #F2F2F7);
+            img{
+                border-radius: 150px; 
+            }
+        }
+        .name-block{
+            
+            p{
+                color: var(--basic-black, #081F32);
+                text-align: center;
+                font-family: Roboto;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 16px;
+            }
+        }
+    }
+}

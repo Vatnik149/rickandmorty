@@ -1,0 +1,16 @@
+.container{
+    padding-left: 210px;
+    padding-right: 210px;
+    @media screen  and (max-width:1440px){
+        padding-left: calc(20% - 78px);
+        padding-right: calc(20% - 78px);
+    }
+    @media screen  and (max-width:1280px){
+        padding-left: calc(15% - 100px);
+        padding-right: calc(15% - 100px);
+    }
+    @media screen  and (max-width:900px){
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

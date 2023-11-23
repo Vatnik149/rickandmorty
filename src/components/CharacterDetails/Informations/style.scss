@@ -1,0 +1,22 @@
+.information{
+    width: 50%;
+    .head{
+        h3{
+            color: var(--graybase-gray-1, #8E8E93);
+            /* Headline 6 */
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 120% */
+            letter-spacing: 0.15px;
+        }
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+
+        }
+    }
+}

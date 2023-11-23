@@ -1,0 +1,22 @@
+.backBtn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    &:hover{
+        cursor: pointer;
+    }
+    span{
+        margin-right: 8px;
+    }
+    p{
+        color: #000;
+        font-family: Karla;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        padding: 8;
+    }
+}

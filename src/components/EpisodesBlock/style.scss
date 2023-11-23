@@ -1,0 +1,23 @@
+.locationblock{
+    .cardblock{
+        margin-top: 61px;
+            display: grid;
+            grid-template-columns: 260px 260px 260px 240px;
+            justify-content:center;
+            gap: 0.5rem;
+            padding: 0;
+            @media screen  and (max-width:1280px){
+                    grid-template-columns: 260px 260px 240px;
+            }
+            @media screen  and (max-width:900px){
+                grid-template-columns: 260px 260px;
+            }
+            @media screen  and (max-width:550px){
+                display: flex;
+                flex-direction: column;
+            }
+    }
+    .cartLink{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,39 @@
+.locationCart{
+    padding:38px 16px ;
+    border-radius: 4px;
+    background: var(--white-high-emphasis, #FAFAFA);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.14), 0px 3px 4px 0px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    .text-desc{
+
+        .name{
+            color: var(--black-high-emphasis, rgba(0, 0, 0, 0.87));
+            text-align: center;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px; /* 150% */
+            letter-spacing: 0.15px;
+            margin: 0px;
+        }
+        .type{
+            color: var(--black-medium-emphasis, rgba(0, 0, 0, 0.60));
+            text-align: center;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 150% */
+            letter-spacing: 0.25px;
+            margin: 0px;
+        }
+    }
+    @media screen and (max-width:550px){
+        margin-right: 0px;
+    }
+}

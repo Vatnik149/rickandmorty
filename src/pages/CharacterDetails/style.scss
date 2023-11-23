@@ -1,0 +1,114 @@
+.character-details{
+    margin-bottom: 60px;
+    .info-episodes{
+        display: flex;
+        justify-content: center;
+
+        .episodesDetails{
+            width: 50%;
+            .head{
+                color: var(--graybase-gray-1, #8E8E93);
+                /* Headline 6 */
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 120% */
+                letter-spacing: 0.15px;
+            }
+            .linkEpisode{
+                text-decoration: none;
+            }
+            .episodes-item{
+                list-style: none;
+                padding: 0;
+                li{
+                    
+                }
+            }
+        }
+        
+    }
+    @media screen  and (max-width:1440px){
+        .profile{
+            margin-top: 80px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            .backBtn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .character{
+                margin-left: 22%;
+        
+        
+                .pic-block{
+                    width: 300px;
+                    height: 300px;
+                    flex-shrink: 0;
+                
+        
+                    img{
+        
+                    }
+                }
+                .name-block{
+                    
+                    p{
+                        color: var(--basic-black, #081F32);
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen  and (max-width:800px){
+        .info-episodes{
+            flex-direction: column;
+
+            .episodesDetails{
+                width: 100%;
+            }
+            .information{
+                width: 100%;
+            }
+        }
+        .profile{
+            flex-direction: column;
+            
+            .character{
+                margin-left: auto;
+                margin-right: auto;
+                .pic-block{
+                    width: 146px;
+                    height: 148px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    img{
+                        width: 146px;
+                        height: 148px;
+                    }
+                }
+                .name-block{
+                    p{
+                        color: var(--basic-black, #081F32);
+                        text-align: center;
+                        font-family: Roboto;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
